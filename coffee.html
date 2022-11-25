@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="coffee.css"></head>
+    <script src="coffee.js"></script>
+    <script></script>
+<body>
+    <img src="image2.jpg" alt="" class="type1 type2">
+    <img src="santa4.png"></img>
+    
+    <a href="background.html">
+        <button id="home">Home</button>
+    </a>
+
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Open Message</button>
+        <div class="popup" id="popup">
+            <p>Looks like there is nothing in here:(((</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+
+    </div>
+    
+    
+
+  <script>
+    let popup=document.getElementById("popup");
+
+    function openPopup(){
+       popup.classList.add("open-popup");
+    }
+
+    function closePopup(){
+       popup.classList.remove("open-popup");
+    }
+
+
+    
+  </script>  
+
+
+    
+</body>
+</html>

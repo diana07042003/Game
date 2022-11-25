@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grinch House</title>
+    <link rel="stylesheet" href="grinch.css">
+</head>
+<body>
+    <img src="image3.jpg" alt="" class="type1 type2">
+    <img src="grinch.png">
+
+    <a href="background.html">
+        <button id="home">Home</button>
+    </a>
+
+
+
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Open Message</button>
+        <div class="popup" id="popup">
+            <p>Ho Ho Ho Santa! Looking for something? In return for your
+                bag full of gifts you must give me a christmas hat! Hurry or else...
+            </p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+
+    </div>
+    
+
+
+  <script>
+    let popup=document.getElementById("popup");
+
+    function openPopup(){
+       popup.classList.add("open-popup");
+    }
+
+    function closePopup(){
+       popup.classList.remove("open-popup");
+    }
+
+
+  </script>  
+
+</body>
+</html>

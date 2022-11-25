@@ -1,0 +1,33 @@
+body{
+    background-color: cadetblue;
+}
+
+
+h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+text-align: center;
+text-decoration: underline;
+}
+
+/*.type1{
+    width: 30%;
+   display: block; 
+   margin: 0px auto;
+}*/
+.type2{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    float: right;
+}
+button1{
+    float: left;
+
+    
+}
+
